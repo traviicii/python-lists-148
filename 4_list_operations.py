@@ -7,15 +7,15 @@ guest_list = ['Adam', 'Bob', 'Charlie', 'Dylan', 'Ethan']
 print("Albert" in guest_list)
 print('Dylan' in guest_list)
 
-# name = input('What is your name? ')
+name = input('What is your name? ')
 
 guest_list.append('Travis')
 
 # using if statements for membership check
-# if name in guest_list:
-#     print("Welcome to the party: ", name)
-# else:
-#     print("Sraamammm punk!!")
+if name in guest_list:
+    print("Welcome to the party: ", name)
+else:
+    print("Sraamammm punk!!")
 
 # Merging two lists with '+'
 
