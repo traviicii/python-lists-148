@@ -122,3 +122,5 @@ for item in list3:
 
 ans = ''.join(empty)
 print(ans, type(ans))
+
+# some change here
